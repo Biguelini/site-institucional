@@ -16,12 +16,9 @@ h1 {
   margin-bottom: 20px;
 }
 
-#imagemTexto {
-  display: flex;
-  align-items: flex-start;
-  gap: 2em;
-}
 
 img {
   height: 300px;
+  float: left;
+  margin-right: 20px;
 }
