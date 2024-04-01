@@ -1,35 +1,17 @@
-.carousel-container {
-  position: relative;
-  max-width: 600px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.carousel-slide {
+.slides {
+  width: 36rem;
+  height: 23rem;
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  position: relative;
+  overflow: hidden; /* alterado para 'hidden' para ocultar as barras de rolagem */
+  scroll-snap-type: x mandatory;
 }
 
-.carousel-slide img {
+.slides img {
   width: 100%;
-  height: auto;
-}
-
-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-  font-size: 18px;
-}
-
-#prevBtn {
-  left: 10px;
-}
-
-#nextBtn {
-  right: 10px;
+  height: 100%;
+  position: sticky;
+  left: 0;
+  flex-shrink: 0;
+  object-fit: cover;
 }
