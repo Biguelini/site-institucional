@@ -51,6 +51,10 @@ button:hover {
   background-color: #45a049;
 }
 
+.filiais {
+  margin-bottom: 20px;
+}
+
 .filial {
   margin-top: 30px;
   display: flex;
@@ -84,3 +88,5 @@ button:hover {
   height: auto;
   border-radius: 8px;
 }
+
+

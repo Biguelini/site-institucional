@@ -1,114 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="../styles/styles.css" />
-    <link rel="stylesheet" href="../styles/formulario.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulario</title>
-  </head>
-
-  <body>
-    <nav>
-      <h1>Site Institucional</h1>
-      <ul id="menu">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="./tabela.html">Tabela</a></li>
-        <li><a href="./formulario.html">Formulario</a></li>
-        <li><a href="./sobre.html">Sobre</a></li>
-      </ul>
-    </nav>
-    <div class="container">
-      <form action="" id="formulario">
-        <div class="row">
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome" placeholder="Jorginho" />
-          <label for="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="jorginho@email.com"
-          />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="../styles/styles.css" />
+  <link rel="stylesheet" href="../styles/formulario.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario</title>
+</head>
+<body>
+  <nav>
+    <h1>Site Institucional</h1>
+    <ul id="menu">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="./tabela.html">Tabela</a></li>
+      <li><a href="./formulario.html">Formulario</a></li>
+      <li><a href="./sobre.html">Sobre</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <article>
+        <div class="container">
+          <form action="" id="formulario">
+            <div class="row">
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" name="nome" placeholder="Jorginho" />
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="jorginho@email.com"
+              />
+            </div>
+            <div class="row">
+              <label for="assunto">Assunto:</label>
+              <input
+                type="text"
+                id="assunto"
+                name="assunto"
+                placeholder="Atualização da página"
+              />
+            </div>
+            <label for="mensagem">Mensagem:</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="10"
+              placeholder="Sua Mensagem..."
+            ></textarea>
+            <div class="button">
+              <button type="submit">Enviar</button>
+            </div>
+          </form>
+          <ul class="filiais">
+            <li class="filial">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ray-Ban_logo.svg/1280px-Ray-Ban_logo.svg.png"
+                alt=""
+              />
+              <div class="dados_filial">
+                <h2>Filial</h2>
+                <span>Rua endereço, 124</span>
+                <address>teste@teste.com</address>
+                <address>42 99999-9999</address>
+              </div>
+            </li>
+            <li class="filial">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ray-Ban_logo.svg/1280px-Ray-Ban_logo.svg.png"
+                alt=""
+              />
+              <div class="dados_filial">
+                <h2>Filial</h2>
+                <span>Rua endereço, 124</span>
+                <address>teste@teste.com</address>
+                <address>42 99999-9999</address>
+              </div>
+            </li>
+            <li class="filial">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ray-Ban_logo.svg/1280px-Ray-Ban_logo.svg.png"
+                alt=""
+              />
+              <div class="dados_filial">
+                <h2>Filial</h2>
+                <span>Rua endereço, 124</span>
+                <address>teste@teste.com</address>
+                <address>42 99999-9999</address>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div class="row">
-          <label for="assunto">Assunto:</label>
-          <input
-            type="text"
-            id="assunto"
-            name="assunto"
-            placeholder="Atualização da página"
-          />
-        </div>
-        <label for="mensagem">Mensagem:</label>
-        <textarea
-          id="mensagem"
-          name="mensagem"
-          rows="10"
-          placeholder="Sua Mensagem..."
-        ></textarea>
-        <div class="button">
-          <button type="submit">Enviar</button>
-        </div>
-      </form>
-      <ul class="filiais">
-        <li class="filial">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ray-Ban_logo.svg/1280px-Ray-Ban_logo.svg.png"
-            alt=""
-          />
-          <div class="dados_filial">
-            <h2>Filial</h2>
-            <span>Rua endereço, 124</span>
-            <address>teste@teste.com</address>
-            <address>42 99999-9999</address>
-          </div>
-        </li>
-        <li class="filial">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ray-Ban_logo.svg/1280px-Ray-Ban_logo.svg.png"
-            alt=""
-          />
-          <div class="dados_filial">
-            <h2>Filial</h2>
-            <span>Rua endereço, 124</span>
-            <address>teste@teste.com</address>
-            <address>42 99999-9999</address>
-          </div>
-        </li>
-        <li class="filial">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ray-Ban_logo.svg/1280px-Ray-Ban_logo.svg.png"
-            alt=""
-          />
-          <div class="dados_filial">
-            <h2>Filial</h2>
-            <span>Rua endereço, 124</span>
-            <address>teste@teste.com</address>
-            <address>42 99999-9999</address>
-          </div>
-        </li>
-      </ul>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <ul>
+          <li><a href="#">Social 1</a></li>
+          <li><a href="#">Social 2</a></li>
+          <li><a href="#">Social 3</a></li>
+        </ul>
+      </div>
     </div>
+    <div class="footer-info">
+      <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <aside>
+    <!-- Seu conteúdo da barra lateral aqui -->
+  </aside>
 
-    <script>
-      document
-        .getElementById("formulario")
-        .addEventListener("submit", function (event) {
-          event.preventDefault();
+  <script>
+    document
+      .getElementById("formulario")
+      .addEventListener("submit", function (event) {
+        event.preventDefault();
 
-          var nome = document.getElementById("nome").value.trim();
-          var email = document.getElementById("email").value.trim();
-          var assunto = document.getElementById("assunto").value.trim();
-          var mensagem = document.getElementById("mensagem").value.trim();
+        var nome = document.getElementById("nome").value.trim();
+        var email = document.getElementById("email").value.trim();
+        var assunto = document.getElementById("assunto").value.trim();
+        var mensagem = document.getElementById("mensagem").value.trim();
 
-          if (!nome || !email || !assunto || !mensagem) {
-            alert("Por favor, preencha todos os campos.");
-            return; 
-          }
-          
-          alert("Enviado");
-        });
-    </script>
-  </body>
+        if (!nome || !email || !assunto || !mensagem) {
+          alert("Por favor, preencha todos os campos.");
+          return; 
+        }
+        
+        alert("Enviado");
+      });
+  </script>
+</body>
 </html>
